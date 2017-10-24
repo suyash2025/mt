@@ -1,10 +1,10 @@
 <doctype html>
-<html>
+<html ng-app='myapp'>
   <head>
     <title>First Page</title>
   </head>
   <body>
-    <div class="page-wrapper">
+    <div class="page-wrapper"  ng-controller="userCtrl">
       <header class="mt-header">
         <div class="logo"><a href="#"><img src="" alt="Logo"></a></div>
         <div class="menu">
@@ -19,7 +19,26 @@
       <main id="main-content">
         <div class="message"></div>
         <div class="columns">
-          <div class="column main"></div>
+          <div class="column main">
+            <table >
+
+              <tr>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Thumbnail</th>
+              </tr>
+
+              <!-- Display records -->
+              <tr ng-repeat="user in users">
+                <td>{{user.title}}</td>
+                <td ng-bind-html="user.content">{{user.content}}</td>
+                <td> <a href='#'><img ng-src="/admin-lara54/public/images/{{user.thumbnail}}" height="50" width="50"/></a></td>
+              </tr>
+
+            </table>
+
+
+          </div>
           <div class="sidebar-right"></div>
         </div>
         <footer class="mt-footer">
@@ -27,5 +46,24 @@
         </footer>
       </main>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-sanitize.js"></script>
+    <script type="text/javascript">
+        var fetch = angular.module('myapp', ['ngSanitize']);
+
+        fetch.controller('userCtrl', ['$scope', '$http', function ($scope, $http) {
+            $scope.myText = "My name is: <h1>John Doe</h1>";
+            $scope.link = '/admin-lara54/public/images/1508832516.png';
+            $http({
+                method: 'get',
+                url: 'angular/getData.php'
+            }).then(function successCallback(response) {
+                // Store response data
+                $scope.users = response.data;
+
+            });
+        }]);
+
+    </script>
   </body>
 </html>

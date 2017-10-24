@@ -2,12 +2,511 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb522b86-a050-4e43-8972-809bd1732d8d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/admin.php" afterPath="$PROJECT_DIR$/admin/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/check_login.php" afterPath="$PROJECT_DIR$/admin/check_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/config.php" afterPath="$PROJECT_DIR$/admin/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/login.php" afterPath="$PROJECT_DIR$/admin/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/logout.php" afterPath="$PROJECT_DIR$/admin/logout.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/commands/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/compile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/local/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/local/database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/mail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/packages/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/queue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/remote.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/services.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/testing/cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/testing/session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/config/workbench.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/controllers/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/controllers/BaseController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/controllers/HomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/controllers/UserController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/database/migrations/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/database/production.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/database/seeds/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/database/seeds/DatabaseSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/filters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/lang/en/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/lang/en/reminders.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/lang/en/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/models/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/routes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/start/artisan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/start/global.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/start/local.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/storage/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/storage/cache/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/storage/logs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/storage/meta/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/storage/sessions/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/storage/views/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/tests/ExampleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/tests/TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/views/emails/auth/reminder.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/views/hello.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/views/layout.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/app/views/users.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/artisan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/bootstrap/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/bootstrap/paths.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/bootstrap/start.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/public/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/public/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/public/packages/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/public/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara/server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/.env.example" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Commands/Command.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Console/Commands/Inspire.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Console/Kernel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Events/Event.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Exceptions/Handler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Handlers/Commands/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Handlers/Events/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/Controllers/Auth/AuthController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/Controllers/Auth/PasswordController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/Controllers/Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/Controllers/HomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/Controllers/WelcomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/Kernel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/Middleware/Authenticate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/Requests/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Http/routes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Providers/AppServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Providers/BusServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Providers/ConfigServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Providers/EventServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Providers/RouteServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/Services/Registrar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/app/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/artisan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/bootstrap/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/bootstrap/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/compile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/filesystems.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/mail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/queue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/services.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/config/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/database/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/database/migrations/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/database/seeds/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/database/seeds/DatabaseSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/phpspec.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/public/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/public/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/public/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/public/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/public/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/public/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/public/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/public/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/public/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/app.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/assets/less/bootstrap/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/lang/en/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/lang/en/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/lang/en/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/views/app.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/views/auth/login.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/views/auth/password.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/views/auth/register.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/views/auth/reset.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/views/emails/password.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/views/errors/503.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/views/home.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/views/vendor/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/resources/views/welcome.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/storage/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/storage/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/storage/framework/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/storage/framework/cache/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/storage/framework/sessions/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/storage/framework/views/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/storage/logs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/tests/ExampleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara5/tests/TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/.env.example" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Blog.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Book.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Console/Kernel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Exceptions/Handler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Controllers/Auth/LoginController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Controllers/Auth/RegisterController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Controllers/Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Controllers/FileController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Controllers/FirstController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Controllers/ImageController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Controllers/PostController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Kernel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Middleware/EncryptCookies.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Middleware/TrimStrings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Post.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Providers/AppServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Providers/AuthServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Providers/BroadcastServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Providers/EventServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/Providers/RouteServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/app/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/artisan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/bootstrap/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/bootstrap/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/bootstrap/cache/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/broadcasting.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/filesystems.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/mail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/queue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/services.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/config/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/database/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/database/factories/ModelFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/database/migrations/2017_10_23_122724_create_books_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/database/migrations/2017_10_23_131557_create_images_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/database/seeds/DatabaseSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508765147.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508765330.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508765377.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508829760.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508830150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508830260.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508830394.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508830714.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508832516.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508833097.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508835459.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508835512.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/images/1508835727.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/upload/15088285360.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/upload/15088309780.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/public/web.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/assets/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/assets/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/assets/js/components/Example.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/assets/sass/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/assets/sass/app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/lang/en/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/lang/en/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/lang/en/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/lang/en/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/views/blog.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/views/first.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/views/summernote.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/resources/views/welcome.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/routes/api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/routes/channels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/routes/console.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/routes/web.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/storage/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/storage/app/public/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/storage/framework/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/storage/framework/cache/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/storage/framework/sessions/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/storage/framework/testing/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/storage/framework/views/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/storage/logs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/tests/CreatesApplication.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/tests/Feature/ExampleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/tests/TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/tests/Unit/ExampleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-lara54/webpack.mix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/check_login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/.idea/angular.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/getData.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/.env.example" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Commands/Command.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Console/Commands/Inspire.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Console/Kernel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Events/Event.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Exceptions/Handler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Handlers/Commands/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Handlers/Events/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/Controllers/Auth/AuthController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/Controllers/Auth/PasswordController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/Controllers/Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/Controllers/HomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/Controllers/WelcomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/Kernel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/Middleware/Authenticate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/Requests/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Http/routes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Providers/AppServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Providers/BusServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Providers/ConfigServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Providers/EventServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Providers/RouteServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/Services/Registrar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/app/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/artisan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/bootstrap/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/bootstrap/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/compile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/filesystems.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/mail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/queue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/services.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/config/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/database/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/database/migrations/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/database/seeds/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/database/seeds/DatabaseSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/phpspec.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/public/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/public/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/public/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/public/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/public/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/public/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/public/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/public/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/public/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/app.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/assets/less/bootstrap/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/lang/en/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/lang/en/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/lang/en/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/views/app.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/views/auth/login.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/views/auth/password.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/views/auth/register.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/views/auth/reset.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/views/emails/password.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/views/errors/503.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/views/home.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/views/vendor/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/resources/views/welcome.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/storage/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/storage/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/storage/framework/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/storage/framework/cache/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/storage/framework/sessions/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/storage/framework/views/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/storage/logs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/tests/ExampleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/{directory}/tests/TestCase.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
@@ -21,48 +520,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="34" column="74" lean-forward="false" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+            <state relative-caret-position="870">
+              <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="first.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-lara54/resources/views/first.blade.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="39" column="78" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <marker date="1508835411631" expanded="true" signature="3544:3557" ph="..." />
-              </folding>
+            <state relative-caret-position="507">
+              <caret line="94" column="1" lean-forward="false" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getData.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular/getData.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1508839607257" expanded="true" signature="56:75" ph="select * fro... posts" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="summernote.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-lara54/resources/views/summernote.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="69" />
-              <folding>
-                <marker date="1508828923639" expanded="true" signature="1424:1437" ph="..." />
-              </folding>
+            <state relative-caret-position="117">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,6 +577,7 @@
         <option value="$PROJECT_DIR$/admin-lara54/app/Http/Controllers/FirstController.php" />
         <option value="$PROJECT_DIR$/angular/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -150,7 +634,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="manage" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -164,65 +648,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin-lara54" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mt" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-lara54" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mt" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-lara54" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mt" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin-lara54" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="front" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,12 +756,12 @@
       <workItem from="1508760317694" duration="4688000" />
       <workItem from="1508820155511" duration="8286000" />
       <workItem from="1508838269273" duration="312000" />
-      <workItem from="1508840242049" duration="911000" />
+      <workItem from="1508840242049" duration="2106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23285000" />
+    <option name="totallyTimeSpent" value="24480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="717" extended-state="6" />
@@ -372,22 +798,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin-lara54/resources/views/blog.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="63" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-lara54/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin-lara54/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7845">
@@ -408,9 +818,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -418,9 +826,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <marker date="1508835411631" expanded="true" signature="3544:3557" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -428,9 +834,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="69" />
-          <folding>
-            <marker date="1508828923639" expanded="true" signature="1424:1437" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -438,9 +842,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -472,9 +874,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
           <caret line="106" column="33" lean-forward="false" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -482,9 +882,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -499,9 +897,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -532,9 +928,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -542,9 +936,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" column="43" lean-forward="false" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -700,9 +1092,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -726,9 +1116,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,9 +1124,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
           <caret line="106" column="33" lean-forward="false" selection-start-line="106" selection-start-column="33" selection-end-line="106" selection-end-column="33" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -746,9 +1132,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508839607257" expanded="true" signature="56:75" ph="select * fro... posts" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -764,9 +1148,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="69" />
-          <folding>
-            <marker date="1508828923639" expanded="true" signature="1424:1437" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -774,16 +1156,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="39" column="78" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <marker date="1508835411631" expanded="true" signature="3544:3557" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="34" column="74" lean-forward="false" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+        <state relative-caret-position="870">
+          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="94" column="1" lean-forward="false" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
           <folding />
         </state>
       </provider>
